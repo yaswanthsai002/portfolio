@@ -1,6 +1,16 @@
 import { useState } from "react";
 import ProjectCardModal from "./ProjectCardModal";
 import ProjectCard from "./ProjectCard";
+import writeroImage from "@images/writero.jpg";
+import housefyImage from "@images/housefy.jpg";
+import covid19DashboardImage from "@images/covid19-dashboard.png";
+import nxtWatchImage from "@images/nxt-watch.png";
+import jobBoardImage from "@images/job-board.png";
+import nxtTrendzImage from "@images/nxt-trendz.png";
+import rockPaperScissorsImage from "@images/rock-paper-scissors.png";
+import cardMatchGameImage from "@images/card-match-game.png";
+import passwordManagerImage from "@images/password-manager.png";
+import asanaAIImage from "@images/asana-ai.png";
 
 const projectTabs = [
   {
@@ -29,7 +39,7 @@ const projectsList = [
       {
         projectId: "blog-website",
         projectName: "Writero",
-        projectImageUrl: "images/writero.jpg",
+        projectImageUrl: writeroImage,
         projectTechList: [
           "React Js",
           "Tailwind",
@@ -46,7 +56,7 @@ const projectsList = [
       {
         projectId: "real-estate-website",
         projectName: "Housefy",
-        projectImageUrl: "images/housefy.jpg",
+        projectImageUrl: housefyImage,
         projectTechList: [
           "React Js",
           "Tailwind",
@@ -69,7 +79,7 @@ const projectsList = [
       {
         projectId: "covid19-dashboard",
         projectName: "Covid19 Dashboard",
-        projectImageUrl: "images/covid19-dashboard.png",
+        projectImageUrl: covid19DashboardImage,
         projectTechList: ["React Js", "React Router", "HTML", "CSS"],
         projectDescription:
           "Designed a dynamic frontend interface that enables users to view COVID-19 statistics for each state in India, with detailed breakdowns by age group and gender. This application provides interactive visualizations and real-time data updates to enhance user experience and data accessibility.",
@@ -81,7 +91,7 @@ const projectsList = [
       {
         projectId: "nxt-watch",
         projectName: "NxtWatch",
-        projectImageUrl: "images/nxt-watch.png",
+        projectImageUrl: nxtWatchImage,
         projectTechList: ["React Js", "React Router", "HTML", "CSS"],
         projectDescription:
           "Designed a frontend application with functionality similar to YouTube, allowing users to watch videos, search for content, and interact through likes, dislikes, and comments. Implemented authentication with JWT for secure user access and utilized React Router for seamless page navigation.",
@@ -92,7 +102,7 @@ const projectsList = [
       {
         projectId: "job-board",
         projectName: "Job Board",
-        projectImageUrl: "images/job-board.png",
+        projectImageUrl: jobBoardImage,
         projectTechList: ["React Js", "React Router", "HTML", "CSS"],
         projectDescription:
           "Developed a frontend application for job listings, enabling users to search, filter by salary packages and job type, and view detailed job descriptions including location and key skills. Implemented secure authentication using JWT and integrated APIs for dynamic job data retrieval. Utilized React Router for efficient page navigation.",
@@ -103,7 +113,7 @@ const projectsList = [
       {
         projectId: "ecommerce",
         projectName: "NxtTrendz",
-        projectImageUrl: "images/nxt-trendz.png",
+        projectImageUrl: nxtTrendzImage,
         projectTechList: ["React Js", "React Router", "HTML", "CSS"],
         projectDescription:
           "Developed a frontend for an e-commerce platform where users can browse products and manage their shopping cart. Integrated APIs to fetch product data, implemented JWT-based authentication for secure user sessions, and utilized React Router for efficient navigation throughout the site.",
@@ -114,7 +124,7 @@ const projectsList = [
       {
         projectId: "rock-paper-scissors",
         projectName: "Rock Paper Scissors",
-        projectImageUrl: "images/rock-paper-scissors.png",
+        projectImageUrl: rockPaperScissorsImage,
         projectTechList: ["React Js", "HTML", "CSS"],
         projectDescription:
           "Created a frontend application for a Rock, Paper, Scissors game, featuring an interactive user interface and real-time gameplay. The application includes intuitive game mechanics, responsive design, and user feedback to enhance the gaming experience.",
@@ -126,7 +136,7 @@ const projectsList = [
       {
         projectId: "card-match-game",
         projectName: "Match Card",
-        projectImageUrl: "images/card-match-game.png",
+        projectImageUrl: cardMatchGameImage,
         projectTechList: ["React Js", "HTML", "CSS"],
         projectDescription:
           "Created a frontend application for a card matching game, featuring interactive gameplay mechanics and a user-friendly interface. The application includes card flip functionality, matching logic, and a dynamic scoring system to enhance the gaming experience.",
@@ -138,7 +148,7 @@ const projectsList = [
       {
         projectId: "password-manager",
         projectName: "Password Manager",
-        projectImageUrl: "images/password-manager.png",
+        projectImageUrl: passwordManagerImage,
         projectTechList: ["React Js", "HTML", "CSS"],
         projectDescription:
           "Developed a simple password manager interface that allows users to input and store website credentials, including website name, username, and password. Features include password visibility toggle and a search functionality for filtering stored entries, ensuring ease of use and accessibility.",
@@ -156,7 +166,7 @@ const projectsList = [
       {
         projectId: "asana-website",
         projectName: "Asana AI",
-        projectImageUrl: "images/asana-ai.png",
+        projectImageUrl: asanaAIImage,
         projectTechList: [
           "HTML",
           "CSS",
@@ -177,6 +187,7 @@ const projectsList = [
     ],
   },
 ];
+
 
 const Work = () => {
   const [activeTab, setActiveTab] = useState(projectTabs[0].tabId);

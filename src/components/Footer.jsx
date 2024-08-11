@@ -1,5 +1,5 @@
 import SocialIcons from "./SocialIcons";
-
+import programmingAmico from "@images/Programming-amico.png"
 const Footer = () => {
   return (
     <footer className="flex flex-col items-center px-4 py-3 justify-evenly gap-y-8 min-h-44 bg-secondary">
@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
         <a href="#home" className="flex md:justify-center md:w-1/3">
           <img
-            src="images/Programming-amico.png"
+            src={programmingAmico}
             alt="Programming"
             className="object-contain w-20 h-20"
           />

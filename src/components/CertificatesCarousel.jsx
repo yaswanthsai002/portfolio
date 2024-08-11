@@ -6,99 +6,115 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
+import reactJsCert from "@images/react-js.webp";
+import nodeJsCert from "@images/node-js.webp";
+import developerFoundationsCert from "@images/developer-foundations.jpg";
+import javascriptEssentialsCert from "@images/javascript-essentials.jpg";
+import flexboxCert from "@images/flexbox.jpg";
+import dynamicWebAppCert from "@images/dynamic-web-application.jpg";
+import programmingFoundationsCert from "@images/programming-foundations.jpg";
+import introductionToDatabasesCert from "@images/introduction-to-databases.jpg";
+import responsiveWebsiteCert from "@images/responsive-website.jpg";
+import staticWebsiteCert from "@images/static-website.jpg";
+import softwareDevelopmentCert from "@images/software-development.jpg";
+import cForEveryoneCert from "@images/c-for-everyone.jpg";
+import pythonForEverybodyCert from "@images/python-for-everybody.jpg";
+import pythonDataStructuresCert from "@images/python-data-structures.jpg";
+import pythonToAccessWebDataCert from "@images/python-to-access-web-data.jpg";
 
 const skillsCertificates = [
   {
     certificateId: "DTEOGSBJFS",
-    certificateImageUrl: "images/react-js.webp",
+    certificateImageUrl: reactJsCert,
     certificateUrl:
       "https://certificates.ccbp.in/intensive/react-js?id=DTEOGSBJFS",
   },
   {
     certificateId: "KKYFYKFQUB",
-    certificateImageUrl: "images/node-js.webp",
+    certificateImageUrl: nodeJsCert,
     certificateUrl:
       "https://certificates.ccbp.in/intensive/node-js?id=KKYFYKFQUB",
   },
   {
     certificateId: "QJWLKYMHSA",
-    certificateImageUrl: "images/developer-foundations.jpg",
+    certificateImageUrl: developerFoundationsCert,
     certificateUrl:
       "https://certificates.ccbp.in/intensive/developer-foundations?id=QJWLKYMHSA",
   },
   {
     certificateId: "SSGQUDVNGQ",
-    certificateImageUrl: "images/javascript-essentials.jpg",
+    certificateImageUrl: javascriptEssentialsCert,
     certificateUrl:
       "https://certificates.ccbp.in/intensive/javascript-essentials?id=SSGQUDVNGQ",
   },
   {
     certificateId: "VSYVGNGBNJ",
-    certificateImageUrl: "images/flexbox.jpg",
+    certificateImageUrl: flexboxCert,
     certificateUrl:
       "https://certificates.ccbp.in/intensive/flexbox?id=VSYVGNGBNJ",
   },
   {
     certificateId: "OPIRTDQTOW",
-    certificateImageUrl: "images/dynamic-web-application.jpg",
+    certificateImageUrl: dynamicWebAppCert,
     certificateUrl:
       "https://certificates.ccbp.in/intensive/dynamic-web-application?id=OPIRTDQTOW",
   },
   {
     certificateId: "MLQRNSEPWL",
-    certificateImageUrl: "images/programming-foundations.jpg",
+    certificateImageUrl: programmingFoundationsCert,
     certificateUrl:
       "https://certificates.ccbp.in/intensive/programming-foundations?id=MLQRNSEPWL",
   },
   {
     certificateId: "MTPTPSXLBB",
-    certificateImageUrl: "images/introduction-to-databases.jpg",
+    certificateImageUrl: introductionToDatabasesCert,
     certificateUrl:
       "https://certificates.ccbp.in/intensive/introduction-to-databases?id=MTPTPSXLBB",
   },
   {
     certificateId: "PGJOMXXTFD",
-    certificateImageUrl: "images/responsive-website.jpg",
+    certificateImageUrl: responsiveWebsiteCert,
     certificateUrl:
       "https://certificates.ccbp.in/intensive/responsive-website?id=PGJOMXXTFD",
   },
   {
     certificateId: "GWZDOQVTBC",
-    certificateImageUrl: "images/static-website.jpg",
+    certificateImageUrl: staticWebsiteCert,
     certificateUrl:
       "https://certificates.ccbp.in/intensive/static-website?id=GWZDOQVTBC",
   },
   {
     certificateId: "TFTHWDQTHU7E",
-    certificateImageUrl: "images/software-development.jpg",
+    certificateImageUrl: softwareDevelopmentCert,
     certificateUrl:
       "https://www.coursera.org/account/accomplishments/verify/TFTHWDQTHU7E",
   },
   {
     certificateId: "YBAJDB54MXCU",
-    certificateImageUrl: "images/c-for-everyone.jpg",
+    certificateImageUrl: cForEveryoneCert,
     certificateUrl:
       "https://www.coursera.org/account/accomplishments/verify/YBAJDB54MXCU",
   },
   {
     certificateId: "YV7PR94ZEMZZ",
-    certificateImageUrl: "images/python-for-everybody.jpg",
+    certificateImageUrl: pythonForEverybodyCert,
     certificateUrl:
       "https://www.coursera.org/account/accomplishments/verify/YV7PR94ZEMZZ",
   },
   {
     certificateId: "W5ZP5GJF5NYW",
-    certificateImageUrl: "images/python-data-structures.jpg",
+    certificateImageUrl: pythonDataStructuresCert,
     certificateUrl:
       "https://www.coursera.org/account/accomplishments/certificate/W5ZP5GJF5NYW",
   },
   {
     certificateId: "WCYF3R3PAMHK",
-    certificateImageUrl: "images/python-to-access-web-data.jpg",
+    certificateImageUrl: pythonToAccessWebDataCert,
     certificateUrl:
       "https://www.coursera.org/account/accomplishments/verify/WCYF3R3PAMHK",
   },
 ];
+
 
 const CertificatesCarousel = () => {
   return (

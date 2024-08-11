@@ -1,33 +1,39 @@
 /* eslint-disable react/prop-types */
+import linkedinIcon from "@icons/linkedin.svg";
+import facebookIcon from "@icons/facebook.svg";
+import whatsappIcon from "@icons/whatsapp.svg";
+import mailIcon from "@icons/mail.svg";
+
 const socialLinks = [
   {
     href: "https://www.linkedin.com/in/kotagiri-yaswanth-sai/",
     target: "_blank",
     ariaLabel: "Visit Yaswanth Sai's LinkedIn profile",
-    src: "icons/linkedin.svg",
+    src: linkedinIcon,
     alt: "Linkedin Icon",
   },
   {
     href: "https://www.facebook.com/yaswanthsaikotagiri007",
     target: "_blank",
     ariaLabel: "Visit Yaswanth Sai's Facebook profile",
-    src: "icons/facebook.svg",
+    src: facebookIcon,
     alt: "Facebook Icon",
   },
   {
     href: "https://wa.me/+919100460289?text=Hi+Yaswanth",
     target: "_blank",
     ariaLabel: "Send a WhatsApp message to Yaswanth Sai",
-    src: "icons/whatsapp.svg",
+    src: whatsappIcon,
     alt: "Whatsapp Icon",
   },
   {
     href: "mailto: yaswanthsaikotagiri1@gmail.com",
     ariaLabel: "Send an email to Yaswanth Sai",
-    src: "icons/mail.svg",
+    src: mailIcon,
     alt: "Mail Icon",
   },
 ];
+
 
 const SocialIcons = ({isAnimated}) => {
   return (

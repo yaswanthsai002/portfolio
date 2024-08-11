@@ -1,5 +1,23 @@
 /* eslint-disable react/prop-types */
 import CertificatesCarousel from "./CertificatesCarousel";
+import reactIcon from "@icons/react.svg";
+import tailwindIcon from "@icons/tailwind-svgrepo-com.svg";
+import htmlIcon from "@icons/html-5-svgrepo-com.svg";
+import cssIcon from "@icons/css-3-svgrepo-com.svg";
+import javascriptIcon from "@icons/javascript-svgrepo-com.svg";
+import bootstrapIcon from "@icons/bootstrap-4-logo-svgrepo-com.svg";
+import nodejsIcon from "@icons/node-js-svgrepo-com.svg";
+import expressjsIcon from "@icons/expressjs-icon.svg";
+import pythonIcon from "@icons/python-svgrepo-com.svg";
+import djangoIcon from "@icons/django-icon-svgrepo-com.svg";
+import sqliteIcon from "@icons/sqlite-svgrepo-com.svg";
+import mysqlIcon from "@icons/mysql-logo-svgrepo-com.svg";
+// import mongodbIcon from '@icons/mongodb-icon.svg'; // Uncomment if needed
+import gitIcon from "@icons/git-svgrepo-com.svg";
+import githubIcon from "@icons/github-142-svgrepo-com.svg";
+import vscodeIcon from "@icons/vscode-svgrepo-com.svg";
+import postmanIcon from "@icons/postman-icon-svgrepo-com.svg";
+import figmaIcon from "@icons/figma-svgrepo-com.svg";
 
 const skills = [
   {
@@ -8,32 +26,32 @@ const skills = [
       {
         skillId: "reactjs",
         skillName: "React Js",
-        skillImageUrl: "icons/react.svg",
+        skillImageUrl: reactIcon,
       },
       {
         skillId: "tailwind",
         skillName: "Tailwind",
-        skillImageUrl: "icons/tailwind-svgrepo-com.svg",
+        skillImageUrl: tailwindIcon,
       },
       {
         skillId: "html",
         skillName: "HTML",
-        skillImageUrl: "icons/html-5-svgrepo-com.svg",
+        skillImageUrl: htmlIcon,
       },
       {
         skillId: "css",
         skillName: "CSS",
-        skillImageUrl: "icons/css-3-svgrepo-com.svg",
+        skillImageUrl: cssIcon,
       },
       {
         skillId: "javascript",
         skillName: "JavaScript",
-        skillImageUrl: "icons/javascript-svgrepo-com.svg",
+        skillImageUrl: javascriptIcon,
       },
       {
         skillId: "bootstrap",
         skillName: "Bootstrap",
-        skillImageUrl: "icons/bootstrap-4-logo-svgrepo-com.svg",
+        skillImageUrl: bootstrapIcon,
       },
     ],
   },
@@ -43,22 +61,22 @@ const skills = [
       {
         skillId: "nodejs",
         skillName: "Node Js",
-        skillImageUrl: "icons/node-js-svgrepo-com.svg",
+        skillImageUrl: nodejsIcon,
       },
       {
         skillId: "expressjs",
         skillName: "Express Js",
-        skillImageUrl: "icons/expressjs-icon.svg",
+        skillImageUrl: expressjsIcon,
       },
       {
         skillId: "python",
         skillName: "Python",
-        skillImageUrl: "icons/python-svgrepo-com.svg",
+        skillImageUrl: pythonIcon,
       },
       {
         skillId: "django",
         skillName: "Django",
-        skillImageUrl: "icons/django-icon-svgrepo-com.svg",
+        skillImageUrl: djangoIcon,
       },
     ],
   },
@@ -68,17 +86,17 @@ const skills = [
       {
         skillId: "sqlite",
         skillName: "SQLite",
-        skillImageUrl: "icons/sqlite-svgrepo-com.svg",
+        skillImageUrl: sqliteIcon,
       },
       {
         skillId: "mysql",
         skillName: "MySQL",
-        skillImageUrl: "icons/mysql-logo-svgrepo-com.svg",
+        skillImageUrl: mysqlIcon,
       },
       // {
       //   skillId: "mongodb",
       //   skillName: "Mongo DB",
-      //   skillImageUrl: "icons/mongodb-icon.svg",
+      //   skillImageUrl: mongodbIcon,
       // },
     ],
   },
@@ -88,31 +106,32 @@ const skills = [
       {
         skillId: "git",
         skillName: "Git",
-        skillImageUrl: "icons/git-svgrepo-com.svg",
+        skillImageUrl: gitIcon,
       },
       {
         skillId: "github",
         skillName: "GitHub",
-        skillImageUrl: "icons/github-142-svgrepo-com.svg",
+        skillImageUrl: githubIcon,
       },
       {
         skillId: "vscode",
         skillName: "VSCode",
-        skillImageUrl: "icons/vscode-svgrepo-com.svg",
+        skillImageUrl: vscodeIcon,
       },
       {
         skillId: "postman",
         skillName: "Postman",
-        skillImageUrl: "icons/postman-icon-svgrepo-com.svg",
+        skillImageUrl: postmanIcon,
       },
       {
         skillId: "figma",
         skillName: "Figma",
-        skillImageUrl: "icons/figma-svgrepo-com.svg",
+        skillImageUrl: figmaIcon,
       },
     ],
   },
 ];
+
 
 const SkillCategory = ({ category, delay }) => (
   <div

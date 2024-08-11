@@ -1,7 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaGithub } from "react-icons/fa";
 import SocialIcons from "@components/SocialIcons";
-
-
 
 const Home = () => (
   <section
@@ -45,7 +44,7 @@ const Home = () => (
         optimistic outlook.
       </p>
       <div className="flex items-center justify-between gap-5 buttons-container">
-        <a href="src/assets/Kotagiri-Yaswanth-Sai.pdf" target="_blank">
+        <a href="assets/Kotagiri-Yaswanth-Sai.pdf" target="_blank">
           <button
             type="button"
             className="h-16 px-3 rounded-lg lg:p-4 bg-primary text-[#023047] font-bold text-lg"
@@ -78,7 +77,7 @@ const Home = () => (
       className="flex items-center justify-center w-full lg:w-1/2 profile-img-container"
     >
       <img
-        src="src/assets/profile-pic.webp"
+        src="images/profile-pic.webp"
         alt="Profile Picture"
         className="w-full p-4 border-8 rounded-full lg:w-2/3 border-primary"
       />

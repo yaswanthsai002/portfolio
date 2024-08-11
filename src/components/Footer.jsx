@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
         <a href="#home" className="flex md:justify-center md:w-1/3">
           <img
-            src="src/assets/Programming-amico.png"
+            src="images/Programming-amico.png"
             alt="Programming"
             className="object-contain w-20 h-20"
           />

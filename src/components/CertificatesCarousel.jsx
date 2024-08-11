@@ -10,91 +10,91 @@ import "swiper/css/autoplay";
 const skillsCertificates = [
   {
     certificateId: "DTEOGSBJFS",
-    certificateImageUrl: "src/assets/react-js.webp",
+    certificateImageUrl: "images/react-js.webp",
     certificateUrl:
       "https://certificates.ccbp.in/intensive/react-js?id=DTEOGSBJFS",
   },
   {
     certificateId: "KKYFYKFQUB",
-    certificateImageUrl: "src/assets/node-js.webp",
+    certificateImageUrl: "images/node-js.webp",
     certificateUrl:
       "https://certificates.ccbp.in/intensive/node-js?id=KKYFYKFQUB",
   },
   {
     certificateId: "QJWLKYMHSA",
-    certificateImageUrl: "src/assets/developer-foundations.jpg",
+    certificateImageUrl: "images/developer-foundations.jpg",
     certificateUrl:
       "https://certificates.ccbp.in/intensive/developer-foundations?id=QJWLKYMHSA",
   },
   {
     certificateId: "SSGQUDVNGQ",
-    certificateImageUrl: "src/assets/javascript-essentials.jpg",
+    certificateImageUrl: "images/javascript-essentials.jpg",
     certificateUrl:
       "https://certificates.ccbp.in/intensive/javascript-essentials?id=SSGQUDVNGQ",
   },
   {
     certificateId: "VSYVGNGBNJ",
-    certificateImageUrl: "src/assets/flexbox.jpg",
+    certificateImageUrl: "images/flexbox.jpg",
     certificateUrl:
       "https://certificates.ccbp.in/intensive/flexbox?id=VSYVGNGBNJ",
   },
   {
     certificateId: "OPIRTDQTOW",
-    certificateImageUrl: "src/assets/dynamic-web-application.jpg",
+    certificateImageUrl: "images/dynamic-web-application.jpg",
     certificateUrl:
       "https://certificates.ccbp.in/intensive/dynamic-web-application?id=OPIRTDQTOW",
   },
   {
     certificateId: "MLQRNSEPWL",
-    certificateImageUrl: "src/assets/programming-foundations.jpg",
+    certificateImageUrl: "images/programming-foundations.jpg",
     certificateUrl:
       "https://certificates.ccbp.in/intensive/programming-foundations?id=MLQRNSEPWL",
   },
   {
     certificateId: "MTPTPSXLBB",
-    certificateImageUrl: "src/assets/introduction-to-databases.jpg",
+    certificateImageUrl: "images/introduction-to-databases.jpg",
     certificateUrl:
       "https://certificates.ccbp.in/intensive/introduction-to-databases?id=MTPTPSXLBB",
   },
   {
     certificateId: "PGJOMXXTFD",
-    certificateImageUrl: "src/assets/responsive-website.jpg",
+    certificateImageUrl: "images/responsive-website.jpg",
     certificateUrl:
       "https://certificates.ccbp.in/intensive/responsive-website?id=PGJOMXXTFD",
   },
   {
     certificateId: "GWZDOQVTBC",
-    certificateImageUrl: "src/assets/static-website.jpg",
+    certificateImageUrl: "images/static-website.jpg",
     certificateUrl:
       "https://certificates.ccbp.in/intensive/static-website?id=GWZDOQVTBC",
   },
   {
     certificateId: "TFTHWDQTHU7E",
-    certificateImageUrl: "src/assets/software-development.jpg",
+    certificateImageUrl: "images/software-development.jpg",
     certificateUrl:
       "https://www.coursera.org/account/accomplishments/verify/TFTHWDQTHU7E",
   },
   {
     certificateId: "YBAJDB54MXCU",
-    certificateImageUrl: "src/assets/c-for-everyone.jpg",
+    certificateImageUrl: "images/c-for-everyone.jpg",
     certificateUrl:
       "https://www.coursera.org/account/accomplishments/verify/YBAJDB54MXCU",
   },
   {
     certificateId: "YV7PR94ZEMZZ",
-    certificateImageUrl: "src/assets/python-for-everybody.jpg",
+    certificateImageUrl: "images/python-for-everybody.jpg",
     certificateUrl:
       "https://www.coursera.org/account/accomplishments/verify/YV7PR94ZEMZZ",
   },
   {
     certificateId: "W5ZP5GJF5NYW",
-    certificateImageUrl: "src/assets/python-data-structures.jpg",
+    certificateImageUrl: "images/python-data-structures.jpg",
     certificateUrl:
       "https://www.coursera.org/account/accomplishments/certificate/W5ZP5GJF5NYW",
   },
   {
     certificateId: "WCYF3R3PAMHK",
-    certificateImageUrl: "src/assets/python-to-access-web-data.jpg",
+    certificateImageUrl: "images/python-to-access-web-data.jpg",
     certificateUrl:
       "https://www.coursera.org/account/accomplishments/verify/WCYF3R3PAMHK",
   },

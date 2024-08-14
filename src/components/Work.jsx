@@ -50,7 +50,7 @@ const projectsList = [
         projectDescription:
           "Built a full-stack web app for creating and managing articles on various topics. It features article browsing, filtering, interactions (likes, dislikes, comments), and author following. The app supports user authentication, dynamic content management, and real-time updates, enhancing the experience for both creators and readers.",
         projectDuration: "Aug 2024 - Present",
-        projectRepositoryLink: "https://github.com/yaswanthsai002/zoc-doc",
+        projectRepositoryLink: "",
         projectLiveLink: "",
       },
       {
@@ -67,7 +67,7 @@ const projectsList = [
         projectDescription:
           "Developed a full-stack real estate app for posting, renting, buying, or selling properties. It offers advanced filtering by location and price, supports negotiations, and provides detailed property info. The app includes user authentication, real-time updates, and a responsive design for an enhanced user experience.",
         projectDuration: "Aug 2024 - Present",
-        projectRepositoryLink: "https://github.com/yaswanthsai002/housefy",
+        projectRepositoryLink: "",
         projectLiveLink: "",
       },
     ],
@@ -182,7 +182,7 @@ const projectsList = [
           "Developed a yoga asana classification system using advanced image processing techniques and machine learning. The project involved preprocessing images to extract features with high accuracy, training a machine learning model in Python, and integrating it into a Django web application. Users can upload yoga pose images and receive real-time classification results.",
         projectDuration: "Dec 2021 - January 2022",
         projectRepositoryLink: "https://github.com/yaswanthsai002/asana-ai",
-        projectLiveLink: "",
+        projectLiveLink: null,
       },
     ],
   },

@@ -1,16 +1,16 @@
 import { useState } from "react";
 import ProjectCardModal from "./ProjectCardModal";
 import ProjectCard from "./ProjectCard";
-import writeroImage from "@images/writero.jpg";
-import housefyImage from "@images/housefy.jpg";
-import covid19DashboardImage from "@images/covid19-dashboard.png";
-import nxtWatchImage from "@images/nxt-watch.png";
-import jobBoardImage from "@images/job-board.png";
-import nxtTrendzImage from "@images/nxt-trendz.png";
-import rockPaperScissorsImage from "@images/rock-paper-scissors.png";
-import cardMatchGameImage from "@images/card-match-game.png";
-import passwordManagerImage from "@images/password-manager.png";
-import asanaAIImage from "@images/asana-ai.png";
+import writeroImage from "/images/writero.jpg";
+import housefyImage from "/images/housefy.jpg";
+import covid19DashboardImage from "/images/covid19-dashboard.png";
+import nxtWatchImage from "/images/nxt-watch.png";
+import jobBoardImage from "/images/job-board.png";
+import nxtTrendzImage from "/images/nxt-trendz.png";
+import rockPaperScissorsImage from "/images/rock-paper-scissors.png";
+import cardMatchGameImage from "/images/card-match-game.png";
+import passwordManagerImage from "/images/password-manager.png";
+import asanaAIImage from "/images/asana-ai.png";
 
 const projectTabs = [
   {
@@ -188,7 +188,6 @@ const projectsList = [
   },
 ];
 
-
 const Work = () => {
   const [activeTab, setActiveTab] = useState(projectTabs[0].tabId);
   const [showModal, setShowModal] = useState(false);
@@ -196,8 +195,10 @@ const Work = () => {
   const filteredProjectsList =
     activeTab === "all"
       ? projectsList.flatMap((item) => item.projectsList)
-      : projectsList.filter((item) => item.projectsTypeId === activeTab).flatMap(item => item.projectsList);
-      
+      : projectsList
+          .filter((item) => item.projectsTypeId === activeTab)
+          .flatMap((item) => item.projectsList);
+
   const handleProjectClick = (project) => {
     setSelectedProject(project);
     setShowModal(true);
@@ -224,12 +225,20 @@ const Work = () => {
         </ul>
         <div className="flex flex-wrap items-center justify-center gap-4 projects-container">
           {filteredProjectsList.map((project, index) => (
-            <ProjectCard key={project.projectId} project={project} handleProjectClick={handleProjectClick} delay={50 * index} />
+            <ProjectCard
+              key={project.projectId}
+              project={project}
+              handleProjectClick={handleProjectClick}
+              delay={50 * index}
+            />
           ))}
         </div>
       </div>
       {showModal && selectedProject && (
-        <ProjectCardModal setShowModal={setShowModal} project={selectedProject} />
+        <ProjectCardModal
+          setShowModal={setShowModal}
+          project={selectedProject}
+        />
       )}
     </section>
   );

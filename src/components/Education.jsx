@@ -3,7 +3,7 @@ import Timeline from "@components/Timeline";
 const educationList = [
   {
     id: "nxtwave",
-    title: "MERN Stack Development Trainee",
+    title: "Full Stack Development with MERN Specialization",
     institution: "NxtWave",
     duration: "August 2023 - August 2024",
     location: "Online",

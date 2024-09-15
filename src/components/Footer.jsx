@@ -1,5 +1,5 @@
 import SocialIcons from "./SocialIcons";
-import programmingAmico from "@images/Programming-amico.png"
+import programmingAmico from "/images/Programming-amico.png";
 const Footer = () => {
   return (
     <footer className="flex flex-col items-center px-4 py-3 justify-evenly gap-y-8 min-h-44 bg-secondary">

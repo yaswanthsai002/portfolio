@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { FaGithub } from "react-icons/fa";
 import SocialIcons from "@components/SocialIcons";
-import profilePic from "@images/profile-pic.webp"
+import profilePic from "/images/profile-pic.webp";
 const Home = () => (
   <section
     className="flex flex-col justify-between w-full min-h-[calc(100vh-80px)] gap-10 p-5 lg:p-10 lg:gap-6 md:flex-row items-center"

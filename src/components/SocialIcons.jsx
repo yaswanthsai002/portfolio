@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-import linkedinIcon from "@icons/linkedin.svg";
-import facebookIcon from "@icons/facebook.svg";
-import whatsappIcon from "@icons/whatsapp.svg";
-import mailIcon from "@icons/mail.svg";
+import linkedinIcon from "/icons/linkedin.svg";
+import facebookIcon from "/icons/facebook.svg";
+import whatsappIcon from "/icons/whatsapp.svg";
+import mailIcon from "/icons/mail.svg";
 
 const socialLinks = [
   {

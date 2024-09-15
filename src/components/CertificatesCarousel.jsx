@@ -6,23 +6,29 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
-import reactJsCert from "@images/react-js.webp";
-import nodeJsCert from "@images/node-js.webp";
-import developerFoundationsCert from "@images/developer-foundations.jpg";
-import javascriptEssentialsCert from "@images/javascript-essentials.jpg";
-import flexboxCert from "@images/flexbox.jpg";
-import dynamicWebAppCert from "@images/dynamic-web-application.jpg";
-import programmingFoundationsCert from "@images/programming-foundations.jpg";
-import introductionToDatabasesCert from "@images/introduction-to-databases.jpg";
-import responsiveWebsiteCert from "@images/responsive-website.jpg";
-import staticWebsiteCert from "@images/static-website.jpg";
-import softwareDevelopmentCert from "@images/software-development.jpg";
-import cForEveryoneCert from "@images/c-for-everyone.jpg";
-import pythonForEverybodyCert from "@images/python-for-everybody.jpg";
-import pythonDataStructuresCert from "@images/python-data-structures.jpg";
-import pythonToAccessWebDataCert from "@images/python-to-access-web-data.jpg";
+import IRCCert from "/images/full-stack-development.jpg";
+import reactJsCert from "/images/react-js.webp";
+import nodeJsCert from "/images/node-js.webp";
+import developerFoundationsCert from "/images/developer-foundations.jpg";
+import javascriptEssentialsCert from "/images/javascript-essentials.jpg";
+import flexboxCert from "/images/flexbox.jpg";
+import dynamicWebAppCert from "/images/dynamic-web-application.jpg";
+import programmingFoundationsCert from "/images/programming-foundations.jpg";
+import introductionToDatabasesCert from "/images/introduction-to-databases.jpg";
+import responsiveWebsiteCert from "/images/responsive-website.jpg";
+import staticWebsiteCert from "/images/static-website.jpg";
+import softwareDevelopmentCert from "/images/software-development.jpg";
+import cForEveryoneCert from "/images/c-for-everyone.jpg";
+import pythonForEverybodyCert from "/images/python-for-everybody.jpg";
+import pythonDataStructuresCert from "/images/python-data-structures.jpg";
+import pythonToAccessWebDataCert from "/images/python-to-access-web-data.jpg";
 
 const skillsCertificates = [
+  {
+    certificateId: "72JTWJ9IGW",
+    certificateImageUrl: IRCCert,
+    certificateUrl: "https://certificates.ccbp.in/intensive/irc?id=72JTWJ9IGW",
+  },
   {
     certificateId: "DTEOGSBJFS",
     certificateImageUrl: reactJsCert,
@@ -114,7 +120,6 @@ const skillsCertificates = [
       "https://www.coursera.org/account/accomplishments/verify/WCYF3R3PAMHK",
   },
 ];
-
 
 const CertificatesCarousel = () => {
   return (

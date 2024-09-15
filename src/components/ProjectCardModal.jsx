@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { FaGithub } from "react-icons/fa";
-import closeIcon from "@icons/modal-close.svg";
+import closeIcon from "/icons/modal-close.svg";
 
 const ProjectCardModal = ({ setShowModal, project }) => {
   const {
@@ -80,7 +80,7 @@ const ProjectCardModal = ({ setShowModal, project }) => {
             ) : (
               <>
                 <p className="flex-grow text-xl font-semibold text-primary">
-                  {projectLiveLink === null ? '' : 'Under Development'}
+                  {projectLiveLink === null ? "" : "Under Development"}
                 </p>
                 {projectRepositoryLink && (
                   <a

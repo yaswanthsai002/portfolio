@@ -1,23 +1,23 @@
 /* eslint-disable react/prop-types */
 import CertificatesCarousel from "./CertificatesCarousel";
-import reactIcon from "@icons/react.svg";
-import tailwindIcon from "@icons/tailwind-svgrepo-com.svg";
-import htmlIcon from "@icons/html-5-svgrepo-com.svg";
-import cssIcon from "@icons/css-3-svgrepo-com.svg";
-import javascriptIcon from "@icons/javascript-svgrepo-com.svg";
-import bootstrapIcon from "@icons/bootstrap-4-logo-svgrepo-com.svg";
-import nodejsIcon from "@icons/node-js-svgrepo-com.svg";
-import expressjsIcon from "@icons/expressjs-icon.svg";
-import pythonIcon from "@icons/python-svgrepo-com.svg";
-import djangoIcon from "@icons/django-icon-svgrepo-com.svg";
-import sqliteIcon from "@icons/sqlite-svgrepo-com.svg";
-import mysqlIcon from "@icons/mysql-logo-svgrepo-com.svg";
-// import mongodbIcon from '@icons/mongodb-icon.svg'; // Uncomment if needed
-import gitIcon from "@icons/git-svgrepo-com.svg";
-import githubIcon from "@icons/github-142-svgrepo-com.svg";
-import vscodeIcon from "@icons/vscode-svgrepo-com.svg";
-import postmanIcon from "@icons/postman-icon-svgrepo-com.svg";
-import figmaIcon from "@icons/figma-svgrepo-com.svg";
+import reactIcon from "/icons/react.svg";
+import tailwindIcon from "/icons/tailwind-svgrepo-com.svg";
+import htmlIcon from "/icons/html-5-svgrepo-com.svg";
+import cssIcon from "/icons/css-3-svgrepo-com.svg";
+import javascriptIcon from "/icons/javascript-svgrepo-com.svg";
+import bootstrapIcon from "/icons/bootstrap-4-logo-svgrepo-com.svg";
+import nodejsIcon from "/icons/node-js-svgrepo-com.svg";
+import expressjsIcon from "/icons/expressjs-icon.svg";
+import pythonIcon from "/icons/python-svgrepo-com.svg";
+import djangoIcon from "/icons/django-icon-svgrepo-com.svg";
+import sqliteIcon from "/icons/sqlite-svgrepo-com.svg";
+import mysqlIcon from "/icons/mysql-logo-svgrepo-com.svg";
+// import mongodbIcon from '/icons/mongodb-icon.svg'; // Uncomment if needed
+import gitIcon from "/icons/git-svgrepo-com.svg";
+import githubIcon from "/icons/github-142-svgrepo-com.svg";
+import vscodeIcon from "/icons/vscode-svgrepo-com.svg";
+import postmanIcon from "/icons/postman-icon-svgrepo-com.svg";
+import figmaIcon from "/icons/figma-svgrepo-com.svg";
 
 const skills = [
   {
@@ -132,7 +132,6 @@ const skills = [
   },
 ];
 
-
 const SkillCategory = ({ category, delay }) => (
   <div
     className="flex flex-col items-center w-full gap-8 p-4 pt-8 border-accent border-2 rounded-lg sm:w-1/2 justify-start aspect-[4/3]"
@@ -164,32 +163,32 @@ const SkillCategory = ({ category, delay }) => (
 );
 
 const Skills = () => (
-    <section className="flex flex-col min-h-screen gap-4 p-8" id="skills">
-      <h1 className="text-6xl font-extrabold text-white font-outfit">Skills</h1>
-      <div className="flex flex-col items-center justify-between gap-8 lg:flex-row">
-        <div className="flex flex-col w-full gap-4 h-full lg:w-[55%] p-y-4 skills-container">
-          <div className="flex flex-col h-full gap-4 skills-row sm:flex-row">
-            {skills.slice(0, 2).map((category, index) => (
-              <SkillCategory
-                key={category.title}
-                category={category}
-                delay={500 * index}
-              />
-            ))}
-          </div>
-          <div className="flex flex-col h-full gap-4 skills-row sm:flex-row">
-            {skills.slice(2).map((category, index) => (
-              <SkillCategory
-                key={category.title}
-                category={category}
-                delay={500 * index}
-              />
-            ))}
-          </div>
+  <section className="flex flex-col min-h-screen gap-4 p-8" id="skills">
+    <h1 className="text-6xl font-extrabold text-white font-outfit">Skills</h1>
+    <div className="flex flex-col items-center justify-between gap-8 lg:flex-row">
+      <div className="flex flex-col w-full gap-4 h-full lg:w-[55%] p-y-4 skills-container">
+        <div className="flex flex-col h-full gap-4 skills-row sm:flex-row">
+          {skills.slice(0, 2).map((category, index) => (
+            <SkillCategory
+              key={category.title}
+              category={category}
+              delay={500 * index}
+            />
+          ))}
         </div>
-        <CertificatesCarousel />
+        <div className="flex flex-col h-full gap-4 skills-row sm:flex-row">
+          {skills.slice(2).map((category, index) => (
+            <SkillCategory
+              key={category.title}
+              category={category}
+              delay={500 * index}
+            />
+          ))}
+        </div>
       </div>
-    </section>
-  );
+      <CertificatesCarousel />
+    </div>
+  </section>
+);
 
 export default Skills;

@@ -1,40 +1,38 @@
 {
-  "name": "John Doe",
-  "photoUrl": "favicon.svg",
-  "location": "City, Country",
-  "availability": "Available for hire",
-  "description": "A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.",
-  "descriptionHtml": "A brief, compelling introduction about who you are and what you do. Mention your core <span class='text-accent font-bold'>philosophy</span>, your passion for building digital products, and your drive for creating <span class='text-accent font-bold'>efficient</span>, <span class='text-accent font-bold'>high-impact</span> solutions.",
-  "webpageTitle": "John Doe | Lead Software Engineer",
-  "resumeUrl": "https://example-files.online-convert.com/document/pdf/example.pdf",
-
+  "name": "Yaswanth",
+  "photoUrl": "image.png",
+  "location": "Hyderabad, India",
+  "availability": "Open for Full-stack opportunities",
+  "description": "I’m a Software Engineer focused on building reliable, thoughtful digital products that solve real problems. I value simplicity, performance, and maintainability, and strive to turn complex challenges into efficient, high-impact solutions.",
+  "descriptionHtml": "<p>I’m a Software Engineer focused on building <span class='text-accent font-bold'>reliable, thoughtful digital products</span> that solve real problems. I value <span class='text-accent font-bold'>simplicity, performance, and maintainability</span>, and strive to turn complex challenges into <span class='text-accent font-bold'>efficient, high-impact solutions</span>. </p>",
+  "webpageTitle": "Yaswanth | Software Engineer",
+  "resumeUrl": "https://drive.google.com/file/d/10kSRrfYT9TwtHlGMKHzj_nrJFMmo2AM-/view?usp=sharing",
   "_seo_comment": "SEO fields — update these along with your personal info for best search engine visibility.",
-  "jobTitle": "Lead Software Engineer",
+  "jobTitle": "Software Engineer",
   "keywords": "John Doe, software engineer, Flutter, FastAPI, mobile development, portfolio",
   "siteUrl": "https://your-domain.com",
   "lang": "en",
   "twitterHandle": "",
   "ogImageUrl": "/placeholder.jpeg",
-
   "_comment": "Add your social links below. Leave the 'url' empty to hide the icon. Set 'showInContact' to true or false to control if it appears in the Contact section.",
   "socials": [
     {
       "name": "GitHub",
-      "url": "https://github.com/[YOUR_USER_NAME]",
+      "url": "https://github.com/yaswanthsai002",
       "icon": "mdi:github",
       "label": "View Profile",
       "showInContact": true
     },
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/[YOUR_USER_NAME]",
+      "url": "https://linkedin.com/in/yaswanth-sai-kotagiri",
       "icon": "mdi:linkedin",
       "label": "Connect",
       "showInContact": true
     },
     {
       "name": "Leetcode",
-      "url": "#",
+      "url": "https://leetcode.com/u/yaswanth_sai_0702/",
       "icon": "devicon-plain:leetcode",
       "label": "View Profile",
       "showInContact": false
@@ -48,14 +46,14 @@
     },
     {
       "name": "Email",
-      "url": "mailto:your-mail@example.com",
+      "url": "mailto:yaswanthsaikotagiri1@gmail.com",
       "icon": "mdi:email",
       "label": "Send Email",
       "showInContact": true
     },
     {
       "name": "WhatsApp",
-      "url": "https://wa.me/[YOUR_WHATSAPP_NUMBER]",
+      "url": "https://wa.me/9100460289",
       "icon": "mdi:whatsapp",
       "label": "Send Message",
       "showInContact": true

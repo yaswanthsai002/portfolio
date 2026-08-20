@@ -1,20 +1,40 @@
 [
   {
-    "title": "Awesome Website",
-    "description": "A high-performance, SEO-optimized web application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-01.webp", "astro-02.jpeg"],
-    "tech": ["Astro", "Tailwind"],
-    "platforms": ["web"],
-    "link": "https://astro.build/themes/details/career-portfolio-data-driven-astro-ssg/",
-    "category": "Published Website"
+    "title": "Market Forge",
+    "description": "A multi-vendor marketplace where vendors manage stores and sell products, while customers browse and purchase items seamlessly.",
+    "images": [
+      "mf-logo.png",
+      "mf.png"
+    ],
+    "tech": [
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "link": "",
+    "category": "Ongoing"
   },
   {
-    "title": "Demo Mobile App",
-    "description": "A high-performance mobile application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-02.jpeg", "#"],
-    "tech": ["Flutter", "Dart", "REST API"],
-    "platforms": ["apple-ios", "android"],
-    "link": "https://github.com/nbakh16/career-portfolio-template",
-    "category": "Hobby"
+    "title": "Asana AI",
+    "description": "A Virtual Yoga Asana Assistant using Machine Learning, Django, and Python to detect and identify yoga poses in real time.",
+    "images": [
+      "asana-ai.png"
+    ],
+    "tech": [
+      "Python",
+      "Django",
+      "REST API",
+      "Machine Learning"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "link": "https://github.com/yaswanthsai002/asana-ai",
+    "category": "College"
   }
 ]
